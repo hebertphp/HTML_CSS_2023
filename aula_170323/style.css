@@ -1,0 +1,35 @@
+h1{
+    color:orange;
+}
+body{
+    background-color:gray;
+}
+p{
+    color:blue;
+}
+#sub3{/* id="sub3" */
+    border: 1px solid red;
+}
+.esq{/* class="esq" */
+    margin-left:50px;
+}
+.branco{
+    color:whitesmoke;
+}
+.fundo{
+    background-color: pink;
+}
+.azul{
+    color:#00ff66;
+}
+/*
+Hexadecimal
+0123456789ABCDEF
+
+00 - 0   nada
+FF - 255 máximo
+RED GREEN BLUE
+#ff0000 - vermelho (red)
+#00ff00 - verde (green)
+#0000ff - azul (blue)
+*/
