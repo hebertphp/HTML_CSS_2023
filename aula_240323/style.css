@@ -1,3 +1,21 @@
 body{
-    background-color: grey;
+    background-color:grey;
 }
+h1{
+    color:#0000ff;
+}
+/*
+Cor Hexadecimal
+usar 6caracteres
+Mínimo 00
+Máximo FF
+
+#Vermelha    Verde    Azul
+#Red         Green    Blue
+#FF0000 - vermelha pura
+#00FF00 - verde
+#0000FF - azul
+#FFFFFF - branca
+#000000 - preta
+#AAAAAA - cinza
+*/
