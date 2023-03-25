@@ -4,6 +4,9 @@ body{
 h1{
     color:#0000ff;
 }
+h2{
+    background-color: rgb(0,255,0);
+}
 /*
 Cor Hexadecimal
 usar 6caracteres
@@ -18,4 +21,6 @@ Máximo FF
 #FFFFFF - branca
 #000000 - preta
 #AAAAAA - cinza
+
+
 */
