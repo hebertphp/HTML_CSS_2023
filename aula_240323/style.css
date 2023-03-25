@@ -7,6 +7,12 @@ h1{
 h2{
     background-color: rgb(0,255,0);
 }
+h3{
+    background-color: hsl(0, 100%, 50%);
+}
+h3:hover{
+    background-color: hsl(0, 100%, 80%);
+}
 /*
 Cor Hexadecimal
 usar 6caracteres
