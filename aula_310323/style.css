@@ -2,9 +2,10 @@ body{
     background-color: hsl(0,0%,50%);
 }
 h1{
-    background-color: hsl(240,100%,50%);
+    background-color: hsl(240, 100%, 50%);
     color:white;
     margin-left: 50px;
+    padding: 20px;
 }
 /* comentario */
 #dv1{
