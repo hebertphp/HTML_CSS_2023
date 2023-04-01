@@ -9,9 +9,9 @@ h1{
     background-color: hsl(240, 100%, 50%);
     color:white;
     /* margin-left: 50px; */
-    /* margin: 0px auto; centralizar um box., desde que tenha uma largura menor que a largura da página  */
+    margin: 20px auto; /* centralizar um box., desde que tenha uma largura menor que a largura da página 
     /* padding: 20px; */
-    /* width: 500px; */
+    width: 500px;
     
 }
 /* comentario */
