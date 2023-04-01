@@ -4,12 +4,16 @@ body{
 h1{
     background-color: hsl(240, 100%, 50%);
     color:white;
-    margin-left: 50px;
-    padding: 20px;
+    /* margin-left: 50px; */
+    /* margin: 0px auto; centralizar um box., desde que tenha uma largura menor que a largura da página  */
+    /* padding: 20px; */
+    /* width: 500px; */
+    
 }
 /* comentario */
 #dv1{
     background-color: orange;
+    /* margin: 10px 5px 15px 100px; */
 }
 .dv2{
     background-color: blueviolet;
