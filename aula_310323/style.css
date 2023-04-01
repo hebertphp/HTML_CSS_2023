@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: hsl(0,0%,50%);
@@ -19,12 +20,20 @@ h1{
 h1:hover{
     border-bottom:5px solid black;
     border-top:5px solid black;
+    background-color: hsl(240, 100%, 70%);
+
 }
 /* comentario */
 #dv1{
     background-color: orange;
     /* margin: 10px 5px 15px 100px; */
+    /* box-sizing: content-box; */
+    width: 300px; /* largura */
+    height: 100px;/* altura */
+    padding: 30px;
+    border: 10px solid blue;
 }
 .dv2{
     background-color: blueviolet;
+    width:300px;
 }
