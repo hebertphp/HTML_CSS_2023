@@ -12,7 +12,13 @@ h1{
     margin: 20px auto; /* centralizar um box., desde que tenha uma largura menor que a largura da página 
     /* padding: 20px; */
     width: 500px;
-    
+    text-align: center;
+    /* padding:50px; */
+       
+}
+h1:hover{
+    border-bottom:5px solid black;
+    border-top:5px solid black;
 }
 /* comentario */
 #dv1{
