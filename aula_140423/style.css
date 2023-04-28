@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+}
 .back-img{
     color:hsl(0, 0%, 100%);/* #fff white */
     width: 100%;
