@@ -53,7 +53,7 @@ header nav ul li a:hover{
     background-color: var(--cor-hover);/* aplica o valor da variável --cor-hover para a cor de fundo  */
 }
 
-.container{
+container{
     width: 100%;
     height: 60vh;
     border: 1px solid red;
@@ -65,7 +65,7 @@ header nav ul li a:hover{
     background-image: linear-gradient(to top right,var(--cor-am),red,blue);
 }
 /* formatar todas as div que estão dentro do container */
-.container div{
+container div{
     width: 250px;
     height: 50px;
     border: 1px solid blue;
