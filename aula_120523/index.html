@@ -4,22 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Listas</title>
 </head>
 <body>
     <h1>Listas</h1>
     <h2>Lista Ordenada</h2>
-    <ol>
+    <ol type="1"><!--type="1|A|a|I|i" -->
         <li>Primeiro item</li>
         <li>Segundo item</li>
         <li>Terceiro item</li>
+        <li>Quarto item</li>
+        <li>Quinto item</li>
     </ol>
      <!-- h2+ul>li*3 -->
     <h2>Lista Não ordenada</h2>
-    <ul>
+    <ul type="circle"><!--type="disc|square|circle"-->
         <li>Primeiro item</li>
         <li>Segundo item</li>
         <li>Terceiro item</li>
     </ul> 
+    <!-- ul>li*3{Item $} -->
+    <h2>Cardápio!</h2>
+    <ol>
+        <li>Entrada</li>
+        <ul>
+            <li>Salada</li>
+            <li>Fritas</li>
+            <li>Pãozinho</li>
+        </ul>
+        <li>Prato Principal</li>
+        <ul type="square">
+            <li>Bife com fritas</li>
+            <li>Lasanha</li>
+            <li>Fejuca</li>
+        </ul>
+        <li>Bebida</li>
+        <ul>
+            <li>Água</li>
+            <li>Refri</li>
+            <li>Suco</li>
+        </ul>
+    </ol>
+ 
+    <!-- 
+        1.Entrada
+            *Salada
+            *Fritas
+            *Pãozinho
+        2.Prato Principal
+            *Bife com fritas
+            *Lasanha
+            *Fejuca
+        3.Bebida
+            *Água
+            *Refri
+            *Suco
+     -->
 </body>
 </html>
