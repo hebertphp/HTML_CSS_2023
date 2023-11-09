@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form name="form1" method="post" action="http://hebertphp.awardspace.us/recebe.php">
+        <!-- 
+            Criar um campo para RA e senha
+            Criar um botão para envio
+         -->
+         <label for="ra">RA </label><input type="number" name="ra" id="ra" placeholder="Digite o RA" required autofocus><br>
+         <label for="senha">Senha</label> <input type="password" name="senha" id="senha" placeholder="Digite a senha" required><br>
+         Data <input type="datetime-local" name="data" id="data"><br>
+         UF<select name="uf" id="uf">
+            <option value="">Selecione</option>
+            
+         </select>
+         Semestre<select name="semestre" id="semestre">
+            <option value="">Selecione</option>
+
+         </select>
+         Mensagem <textarea name="msg" id="msg" rows="5"></textarea>
+         <button type="submit">Enviar!!</button>
+    </form>
+    <script>
+        const semestre = document.querySelector("#semestre");
+        const uf=document.querySelector("#uf");
+        //        0    1    2    3
+        let ufs=["SP","RJ","MG","ES","SC","TO","AM","BA","MT"];
+        ufs.sort();
+        for(let j=0;j<ufs.length;j++){
+            uf.innerHTML+=`<option>${ufs[j]}</option>`;
+        }
+        for(let i=1;i<9;i++){
+            semestre.innerHTML+=`<option>${i}</option>`;
+        }
+    </script>
+</body>
+</html>    
